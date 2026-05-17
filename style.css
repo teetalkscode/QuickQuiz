@@ -477,7 +477,7 @@ h3 {
 @media (max-width: 992px) {
 #user-input-section-box {
     width: 50%;
-    height: 50vh;
+    height: 350px;
 
 }
 #add-name {
@@ -520,13 +520,13 @@ h3 {
     font-size: 15px;
 }
 .user-gender {
-    height: 15vh;
+    height: 10vh;
 }
 }
 @media (max-width: 724px) {
 #user-input-section-box {
     width: 50%;
-    height: 40vh;
+    height: 350px;
 }
 #name {
     font-size: 15px;
@@ -545,11 +545,14 @@ h3 {
 .user-name input::placeholder {
     font-size: 8px;
 }
+.user-gender {
+    height: 10vh;
+}
 }
 @media (max-width: 500px) {
 #user-input-section-box {
     width: 50%;
-    height: 40vh;
+    height: 350px;
 }
 #name {
     font-size: 12px;
@@ -568,14 +571,36 @@ h3 {
 .user-name input::placeholder {
     font-size: 6px;
 }
+.user-gender {
+    height: 10vh;
+}
 }
 
 
 
 /*Quiz Questions*/
-#quiz-question1-female {    
+#quiz-question1-female,
+#quiz-question1-male,
+#quiz-question2-female,
+#quiz-question2-male,
+#quiz-question3-female,
+#quiz-question3-male,
+#quiz-question4-female,
+#quiz-question4-male,
+#quiz-question5-female,
+#quiz-question5-male,
+#quiz-question6-female,
+#quiz-question6-male,
+#quiz-question7-female,
+#quiz-question7-male,
+#quiz-question8-female,
+#quiz-question8-male,
+#quiz-question9-female,
+#quiz-question9-male,
+#quiz-question10-female,
+#quiz-question10-male  {    
     padding-top: 7vh;
-    min-height: 100vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     position: relative;
@@ -585,235 +610,6 @@ h3 {
     gap: 30px;
     position: relative;
     overflow: hidden;
-}
-
-#quiz-question1-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question2-female {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question2-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question3-female {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question3-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question4-female {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question4-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question5-female {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question5-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question6-female {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question6-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question7-female {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question7-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question8-female {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question8-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question9-female {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question9-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question10-female {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
-}
-#quiz-question10-male {    
-    padding-top: 7vh;
-    min-height: 100vh;
-    width: 100%;
-    display: flex;
-    position: relative;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 30px;
-    position: relative;
 }
 .quiz-f-image img {
     width: 390px;
@@ -893,7 +689,7 @@ h3 {
 @media (max-width: 1000px) {
 .quiz-f-image img {
     width: 280px;
-    bottom: -100px;
+    bottom: -120px;
 }
 .question .q1 {
     font-size: 30px;
@@ -911,7 +707,7 @@ h3 {
 @media (max-width: 700px) {
 .quiz-f-image img {
     width: 200px;
-    bottom: -60px;
+    bottom: -80px;
 }
 .question .q1 {
     font-size: 20px;
@@ -928,7 +724,7 @@ h3 {
 @media (max-width: 500px) {
 .quiz-f-image img {
     width: 120px;
-    bottom: -30px;
+    bottom: -40px;
 }
 .question .q1 {
     font-size: 13px;
