@@ -691,7 +691,7 @@ h3 {
 @media (max-width: 1000px) {
 .quiz-f-image img {
     width: 280px;
-    bottom: -120px;
+    bottom: 0;
 }
 .question .q1 {
     font-size: 30px;
