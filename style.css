@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    border: 1px solid re;
 }
 ::selection {
     background-color: #c6d1ff;
@@ -573,7 +574,7 @@ h3 {
 
 /*Quiz Questions*/
 #quiz-question1-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -587,7 +588,7 @@ h3 {
 }
 
 #quiz-question1-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -599,7 +600,7 @@ h3 {
     position: relative;
 }
 #quiz-question2-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -611,7 +612,7 @@ h3 {
     position: relative;
 }
 #quiz-question2-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -623,7 +624,7 @@ h3 {
     position: relative;
 }
 #quiz-question3-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -635,7 +636,7 @@ h3 {
     position: relative;
 }
 #quiz-question3-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -647,7 +648,7 @@ h3 {
     position: relative;
 }
 #quiz-question4-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -659,7 +660,7 @@ h3 {
     position: relative;
 }
 #quiz-question4-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -671,7 +672,7 @@ h3 {
     position: relative;
 }
 #quiz-question5-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -683,7 +684,7 @@ h3 {
     position: relative;
 }
 #quiz-question5-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -695,7 +696,7 @@ h3 {
     position: relative;
 }
 #quiz-question6-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -707,7 +708,7 @@ h3 {
     position: relative;
 }
 #quiz-question6-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -719,7 +720,7 @@ h3 {
     position: relative;
 }
 #quiz-question7-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -731,7 +732,7 @@ h3 {
     position: relative;
 }
 #quiz-question7-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -743,7 +744,7 @@ h3 {
     position: relative;
 }
 #quiz-question8-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -755,7 +756,7 @@ h3 {
     position: relative;
 }
 #quiz-question8-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -767,7 +768,7 @@ h3 {
     position: relative;
 }
 #quiz-question9-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -779,7 +780,7 @@ h3 {
     position: relative;
 }
 #quiz-question9-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -791,7 +792,7 @@ h3 {
     position: relative;
 }
 #quiz-question10-female {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -803,7 +804,7 @@ h3 {
     position: relative;
 }
 #quiz-question10-male {    
-    padding-top: 15vh;
+    padding-top: 7vh;
     min-height: 100vh;
     width: 100%;
     display: flex;
@@ -910,7 +911,7 @@ h3 {
 @media (max-width: 700px) {
 .quiz-f-image img {
     width: 200px;
-    bottom: 0;
+    bottom: -60px;
 }
 .question .q1 {
     font-size: 20px;
@@ -927,7 +928,7 @@ h3 {
 @media (max-width: 500px) {
 .quiz-f-image img {
     width: 120px;
-    bottom: 0;
+    bottom: -30px;
 }
 .question .q1 {
     font-size: 13px;
