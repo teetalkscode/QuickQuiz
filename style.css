@@ -1000,6 +1000,9 @@ h3 {
     font-family: Arial, Helvetica, sans-serif;
     cursor: text;
 }
+.full-text {
+    padding: 10px;
+}
 #charactername, #showname{
     color: #004aad;
 }
@@ -1034,8 +1037,15 @@ h3 {
 }
 .full-text {
     font-size: 18px;
+    padding: 10px;
 }
 #m-img, #f-img {
     display: none;
+}
+}
+@media (max-width: 600px) {
+.full-text {
+    font-size: 12px;
+    padding: 10px;
 }
 }
