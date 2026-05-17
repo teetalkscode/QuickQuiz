@@ -604,6 +604,8 @@ h3 {
     width: 100%;
     display: flex;
     position: relative;
+    justify-items: center;
+    align-content: center;
     justify-content: center;
     align-items: center;
     flex-direction: row;
