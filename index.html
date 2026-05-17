@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer">
+
+    <title>QuickQuiz | Sitcom Personality Test</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+<body>
+    <header class="header"> 
+        <i class="fa-solid fa-ellipsis main-btn"></i>
+        <h1 id="header-text">.QuickQuiz</h1>
+    </header>
+
+<!--HOME PAGE SECTION-->
+    <section id="home">
+        <div id="home-box">
+        <div class = "body-text-div">
+        <h1 id="body-text">WHICH SITCOM CHARACTER SUITS YOU THE MOST?</h1> </div>
+        <div class="start-btn"><a href="#user-input-section"><h3>Take a Quiz and get to know</h3></a></div>
+    </div>
+    </section>
+
+<!--HEADER MENU BOX-->
+    <div class="header-menu">
+        <div id="cross-btn"><i class="fa-solid fa-xmark xmarkbtn"></i></div>
+        <a class="first-app" href="https://teetalkscode.github.io/My-Portfolio-Website/"><h4 id="first-app">Portfolio Website</h4></a>
+        <a class="second-app" href="https://teetalkscode.github.io/Music-Player/"><h4 id="second-app">Music Player</h4></a>
+        <div class="menu-icons">
+            <a id="icons" href="https://www.linkedin.com/in/tiyasha-ghosh-852109359"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a id="icons" href="https://youtube.com/@teetalkscode?si=OYUHHNoXBBojMqel"><i class="fa-brands fa-youtube"></i></a>
+            <a id="icons" href="https://github.com/teetalkscode"><i class="fa-brands fa-github"></i></a>
+            <a id ="icons" href="https://www.instagram.com/tiiyashaghosh/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        
+    </div>
+
+<!--QUICKQUIZ USER INPUT SECTION-->
+    <section id="user-input-section" class="user-input-section">
+        <div id="user-input-section-box">
+        <div id="add-name"><h2 id="name">TYPE YOUR NAME</h2>
+        <div class="user-name"><input id="user-name" type="text" placeholder="Write your first name or nickname"></div>
+        </div>
+
+        <div id="choose-gender"><h2 id="gender">CHOOSE YOUR GENDER</h2>
+        <div class="user-gender">
+            <div id="female-section">
+            <a id="female" href="#quiz-question1-female"><div>Female</div></a>
+            </div>
+            <div id="male-section">
+            <a id="male" href="#quiz-question1-male"><div>Male</div></a>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <!--QUIZ SECTION-->
+    <section id="quiz-question1-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">WHAT'S YOUR BIGGEST STRENGTH?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Penny">Making people laugh and being effortlessly charming</div>
+                <div class="female-option o2" data-femalecharacter="Jessica">Being deeply romantic and believing in “the one”</div>
+                <div class="female-option o3" data-femalecharacter="Leslie">Having a sharp mind and loving logis</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question1-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">WHAT'S YOUR BIGGEST STRENGTH?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Joey">Making people laugh and being effortlessly charming</div>
+                <div class="male-option o2" data-malecharacter="Ted">Being deeply romantic and believing in “the one”</div>
+                <div class="male-option o3" data-malecharacter="Sheldon">Having a sharp mind and loving logis</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question2-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">HOW DO YOU APPROACH RELATIONSHIPS?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Samantha">Casual and fun, nothing too serious</div>
+                <div class="female-option o2" data-femalecharacter="Pam">Looking for something meaningful and long term</div>
+                <div class="female-option o3" data-femalecharacter="Robin">Independent, don't like to being tied down easily</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question2-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">HOW DO YOU APPROACH RELATIONSHIPS?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Barney">Casual and fun, nothing too serious</div>
+                <div class="male-option o2" data-malecharacter="Ted">Looking for something meaningful and long term</div>
+                <div class="male-option o3" data-malecharacter="Ron">Independent, don't like to being tied down easily</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question3-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">YOUR VIBE IN A SOCIAL SETTING?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Tahani">Fashionable, confident, and socially aware</div>
+                <div class="female-option o2" data-femalecharacter="Elaine">Chill, easygoing and naturally likable</div>
+                <div class="female-option o3" data-femalecharacter="Gloria">Loud, expressive, and full of energy</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question3-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">YOUR VIBE IN A SOCIAL SETTING?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Tom">Fashionable, confident, and socially aware</div>
+                <div class="male-option o2" data-malecharacter="Jim">Chill, easygoing and naturally likable</div>
+                <div class="male-option o3" data-malecharacter="Phill">Loud, expressive, and full of energy</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question4-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">WHAT DESCRIBES YOUR LIFESTYLE THE BEST?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Amy">Career focused and ambitious</div>
+                <div class="female-option o2" data-femalecharacter="Pam">Family oriented and nurturing</div>
+                <div class="female-option o3" data-femalecharacter="Gloria">Dramatic, emotional and passionate</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question4-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">WHAT DESCRIBES YOUR LIFESTYLE THE BEST?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Sheldon">Career focused and ambitious</div>
+                <div class="male-option o2" data-malecharacter="Phill">Family oriented and nurturing</div>
+                <div class="male-option o3" data-malecharacter="Barney">Dramatic, emotional and passionate</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question5-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">YOUR SENSE OF HUMOR?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Jessica">Goofy and a bit silly</div>
+                <div class="female-option o2" data-femalecharacter="Elaine">Sarcastic and witty</div>
+                <div class="female-option o3" data-femalecharacter="Penny">Unique and sometimes hard for others to get</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question5-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">YOUR SENSE OF HUMOR?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Joey">Goofy and a bit silly</div>
+                <div class="male-option o2" data-malecharacter="Chandler">Sarcastic and witty</div>
+                <div class="male-option o3" data-malecharacter="Ron">Unique and sometimes hard for others to get</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question6-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">HOW DO YOU ACT IN A GROUP?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Samantha">The life of the party, always hyping things up</div>
+                <div class="female-option o2" data-femalecharacter="Pam">The supportive and caring one</div>
+                <div class="female-option o3" data-femalecharacter="Leslie">The one who needs things done a certain way</div>
+            </div>
+            </div>
+    </section>
+
+        <section id="quiz-question6-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">HOW DO YOU ACT IN A GROUP?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Jake">The life of the party, always hyping things up</div>
+                <div class="male-option o2" data-malecharacter="Jim">The supportive and caring one</div>
+                <div class="male-option o3" data-malecharacter="Sheldon">The one who needs things done a certain way</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question7-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">WHAT MOTIVATES YOU THE MOST?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Jessica">Love and meaningful connections</div>
+                <div class="female-option o2" data-femalecharacter="Amy">Success and independence</div>
+                <div class="female-option o3" data-femalecharacter="Penny">Fun, excitement, and new experiences</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question7-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">WHAT MOTIVATES YOU THE MOST?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Ted">Love and meaningful connections</div>
+                <div class="male-option o2" data-malecharacter="Ron">Success and independence</div>
+                <div class="male-option o3" data-malecharacter="Jake">Fun, excitement, and new experiences</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question8-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">YOUR REACTION TO CHAOS?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Leslie">Try to control everything and restore order</div>
+                <div class="female-option o2" data-femalecharacter="Elaine">Adapt and go with the flow</div>
+                <div class="female-option o3" data-femalecharacter="Gloria">Overreact a bit but with passion</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question8-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">YOUR REACTION TO CHAOS?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Sheldon">Try to control everything and restore order</div>
+                <div class="male-option o2" data-malecharacter="Jim">Adapt and go with the flow</div>
+                <div class="male-option o3" data-malecharacter="Phill">Overreact a bit but with passion</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question9-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">HOW DO PEOPLE SEE YOU?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Tahani">Stylish and Evolving as a person</div>
+                <div class="female-option o2" data-femalecharacter="Robin">Confident and a bit mysterious</div>
+                <div class="female-option o3" data-femalecharacter="Jessica">Over the top but lovable</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question9-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">HOW DO PEOPLE SEE YOU?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Tom">Stylish and Evolving as a person</div>
+                <div class="male-option o2" data-malecharacter="Barney">Confident and a bit mysterious</div>
+                <div class="male-option o3" data-malecharacter="Joey">Over the top but lovable</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question10-female" class="question-section-female">
+        <div class="quiz-f-image"><img src="female-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">YOUR IDEAL DAY?</h2></div>
+            <div class="option-box">
+                <div class="female-option o1" data-femalecharacter="Penny">Hanging out, eating good food, relaxing</div>
+                <div class="female-option o2" data-femalecharacter="Pam">Planning something meaningful or romantic</div>
+                <div class="female-option o3" data-femalecharacter="Samantha">Doing something legendary and unforgettable</div>
+            </div>
+            </div>
+    </section>
+
+    <section id="quiz-question10-male" class="question-section-male">
+        <div class="quiz-f-image"><img src="male-removebg-preview.png"></div>
+            <div class="right-side"><div class="question"><h2 class="q1">YOUR IDEAL DAY?</h2></div>
+            <div class="option-box">
+                <div class="male-option o1" data-malecharacter="Joey">Hanging out, eating good food relaxing</div>
+                <div class="male-option o2" data-malecharacter="Ted">Planning something meaningful or romantic</div>
+                <div class="male-option o3" data-malecharacter="Barney">Doing something legendary and unforgettable</div>
+            </div>
+            </div>
+    </section> 
+
+<!--Result Section-->
+<section id="result-section">
+    <div id="image-box">
+        <div id="f-img"><img src="female-removebg-preview.png"></div>
+        <div id="m-img"><img src="male-removebg-preview.png"></div>
+    </div>
+    <div class="result-text">
+    <h2 class="full-text"><span id="username">Betty,</span><br>
+    THE CHARACTER <span id="charactername">Barney Stinson</span>
+     FROM <span id="showname">HIMYM</span> SUITS YOU THE MOST.</h2>
+    </div>
+
+    <a id = "go-back" href="#home"><p>Take the quiz again</p></a>
+</section>
+
+    <script src="function.js" defer></script>
+</body>
+</html>
