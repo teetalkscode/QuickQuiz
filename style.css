@@ -259,9 +259,10 @@ h3 {
 }
 
 .first-app {
-    height: 5%;
+    height: 8%;
     width: 80%;
     display: flex;
+    padding-bottom: 10px;
     justify-content: center;
     align-items: center;
     transition: 0.2s ease-in-out;
@@ -274,7 +275,7 @@ h3 {
     transition: 0.2s ease-in-out;
 }
 .second-app {
-    height: 5%;
+    height: 8%;
     width: 80%;
     display: flex;
     justify-content: center;
